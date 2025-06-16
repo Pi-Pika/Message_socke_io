@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="MessageBox">
+        
+    </div>
+    <form id="Form">
+        <div class="frame">
+            <label for="Message" >Message</label>
+            <input type="text" id="Message" class="input-box">
+            <button id="SendButton" type="submit">Send</button>
+        </div>
+
+        <div class="frame">
+            <label for="Room" >Room</label>
+            <input id="Room" class="input-box">
+            <button id="RoomButton" type="button">Join</button>
+        </div>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js?v=1.0.1"></script>
+</body>
+</html>

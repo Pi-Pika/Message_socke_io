@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#MessageBox {
+    border: 1px solid black;
+    height: 50vh;
+}
+
+#MessageBox div {
+    background-color: #CCC;
+    padding: 5px;
+}
+
+.input-box{
+    width: 100%;
+}
+.frame{
+    display: flex;
+    gap: 5px;
+}
+label{
+    width: 65px;
+}
+button{
+    width: 60px;
+}
